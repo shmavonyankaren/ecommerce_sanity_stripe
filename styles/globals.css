@@ -16,6 +16,7 @@ body {
     rgba(50, 77, 103, 1) 76%,
     rgba(95, 95, 95, 1) 100%
   );
+  background-attachment: fixed;
 }
 ::-webkit-scrollbar {
   width: 0px;
@@ -597,14 +598,13 @@ span.text-red {
 }
 .success-wrapper,
 .cancel-wrapper {
-  background-color: white;
   min-height: 60vh;
 }
 .success,
 .cancel {
-  width: 1000px;
   margin: auto;
-  margin-top: 160px;
+  max-width: 1000px;
+  margin-top: 63px;
   background-color: #dcdcdc;
   padding: 50px;
   border-radius: 15px;
