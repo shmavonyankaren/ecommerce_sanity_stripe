@@ -657,6 +657,12 @@ span.text-red {
 .product-max-qty {
   margin-top: 10px;
 }
+@media screen and (max-width: 1255px) and (min-width: 1100px) {
+  .footer-banner-image {
+    left: 18%;
+    width: 50%;
+  }
+}
 
 @media screen and (max-width: 1100px) and (min-width: 800px) {
   .navbar-container {
@@ -684,8 +690,6 @@ span.text-red {
 
   .maylike-pruducts-wrapper h2 {
     width: 150%;
-  }
-  .footer-banner-image {
   }
   .footer-container {
     width: 150%;
@@ -747,14 +751,15 @@ span.text-red {
     height: 62%;
   }
   .footer-banner-container {
-    height: 550px;
+    height: 400px;
+    padding: 40px;
     margin-top: 80px;
   }
   .footer-banner-image {
-    width: 77%;
-    left: 12%;
-    top: 57%;
-    height: 56%;
+    width: 50%;
+    left: 8%;
+    top: 25%;
+    height: 100%;
   }
   .banner-desc .left h3 {
     font-weight: 900;
@@ -874,5 +879,18 @@ span.text-red {
   .btn-container {
     width: 300px;
     margin: auto;
+  }
+}
+@media screen and (max-width: 550px) {
+  .footer-banner-container {
+    height: 650px;
+    padding: 40px;
+    margin-top: 80px;
+  }
+  .footer-banner-image {
+    width: 50%;
+    left: 8%;
+    top: 63%;
+    height: 50%;
   }
 }
